@@ -1,0 +1,9 @@
+/* Palette read live from leochenre.com 2026-11-13: bg #f3f3f3, muted blue #4d7491, crimson CTA #ad3457, heading #4a4a60, body #5f6370, navy #030a1a, accent #45adff. Font: Arimo. */
+:root{--bg:#f3f3f3;--card:#fff;--blue:#4d7491;--crimson:#ad3457;--head:#4a4a60;--text:#5f6370;--navy:#030a1a;--sky:#45adff}
+html{font-size:18px}
+body{margin:0;background:var(--bg);font-family:'Arimo',Arial,sans-serif;line-height:1.7;color:var(--text)}
+.c{max-width:1120px;margin:40px auto;background:var(--card);padding:72px;border-radius:12px}
+h1,h2,h3{color:var(--head);line-height:1.25}
+a{color:var(--blue)}
+.btn{display:inline-block;background:var(--crimson);color:#fff;padding:14px 28px;border-radius:6px;text-decoration:none;font-weight:700}
+@media(max-width:700px){.c{margin:0;padding:32px 20px;border-radius:0}}
